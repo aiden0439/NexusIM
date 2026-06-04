@@ -1,4 +1,4 @@
-module github.com/zhf0439/im-server
+module github.com/aiden0439/NexusIM
 
 go 1.21
 

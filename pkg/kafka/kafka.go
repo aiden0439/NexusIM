@@ -2,7 +2,7 @@ package kafka
 
 import (
 	"github.com/segmentio/kafka-go"
-	"github.com/zhf0439/im-server/pkg/config"
+	"github.com/aiden0439/NexusIM/pkg/config"
 )
 
 type Client struct {

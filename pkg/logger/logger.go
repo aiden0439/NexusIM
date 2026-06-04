@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"github.com/zhf0439/im-server/pkg/config"
+	"github.com/aiden0439/NexusIM/pkg/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

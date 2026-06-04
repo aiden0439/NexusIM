@@ -17,3 +17,4 @@ vendor/
 # Local prompts and generated private docs
 prompt*.md
 docs/
+AGENTS.md

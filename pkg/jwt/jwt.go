@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/zhf0439/im-server/pkg/config"
+	"github.com/aiden0439/NexusIM/pkg/config"
 )
 
 type Claims struct {
@@ -24,9 +24,12 @@ func GenerateToken(userID uint64, cfg config.JWTConfig) (string, error) {
 }
 
 func ParseToken(tokenString string, cfg config.JWTConfig) (*Claims, error) {
-	token, err := jwt.ParseWithClaims(tokenString, &Claims{}, func(token *jwt.Token) (interface{}, error) {
+	token, err := jwt.ParseWithClaims(
+		tokenString,
+		&Claims{}, 
+		func(token *jwt.Token) (interface{}, error) {
 		return []byte(cfg.Secret), nil
-	})
+		})
 	if err != nil {
 		return nil, err
 	}

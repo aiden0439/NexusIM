@@ -2,7 +2,7 @@ package redis
 
 import (
 	"github.com/go-redis/redis/v8"
-	"github.com/zhf0439/im-server/pkg/config"
+	"github.com/aiden0439/NexusIM/pkg/config"
 )
 
 func New(cfg config.RedisConfig) *redis.Client {

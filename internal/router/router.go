@@ -3,12 +3,12 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
-	"github.com/zhf0439/im-server/internal/handler"
-	"github.com/zhf0439/im-server/internal/repo"
-	"github.com/zhf0439/im-server/internal/service"
-	"github.com/zhf0439/im-server/internal/ws"
-	"github.com/zhf0439/im-server/pkg/config"
-	"github.com/zhf0439/im-server/pkg/kafka"
+	"github.com/aiden0439/NexusIM/internal/handler"
+	"github.com/aiden0439/NexusIM/internal/repo"
+	"github.com/aiden0439/NexusIM/internal/service"
+	"github.com/aiden0439/NexusIM/internal/ws"
+	"github.com/aiden0439/NexusIM/pkg/config"
+	"github.com/aiden0439/NexusIM/pkg/kafka"
 	"gorm.io/gorm"
 )
 

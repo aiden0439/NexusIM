@@ -1,6 +1,6 @@
 package service
 
-import "github.com/zhf0439/im-server/internal/repo"
+import "github.com/aiden0439/NexusIM/internal/repo"
 
 type UserService struct {
 	users *repo.UserRepo

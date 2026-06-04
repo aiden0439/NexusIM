@@ -1,7 +1,7 @@
 package repo
 
 import (
-	"github.com/zhf0439/im-server/internal/model"
+	"github.com/aiden0439/NexusIM/internal/model"
 	"gorm.io/gorm"
 )
 

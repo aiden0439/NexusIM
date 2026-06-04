@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/zhf0439/im-server/internal/service"
+	"github.com/aiden0439/NexusIM/internal/service"
 )
 
 type MessageHandler struct {

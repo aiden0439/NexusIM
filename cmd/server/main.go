@@ -4,12 +4,12 @@ import (
 	"context"
 	"log"
 
-	"github.com/zhf0439/im-server/internal/router"
-	"github.com/zhf0439/im-server/pkg/config"
-	"github.com/zhf0439/im-server/pkg/kafka"
-	"github.com/zhf0439/im-server/pkg/logger"
-	"github.com/zhf0439/im-server/pkg/mysql"
-	"github.com/zhf0439/im-server/pkg/redis"
+	"github.com/aiden0439/NexusIM/internal/router"
+	"github.com/aiden0439/NexusIM/pkg/config"
+	"github.com/aiden0439/NexusIM/pkg/kafka"
+	"github.com/aiden0439/NexusIM/pkg/logger"
+	"github.com/aiden0439/NexusIM/pkg/mysql"
+	"github.com/aiden0439/NexusIM/pkg/redis"
 	"go.uber.org/zap"
 )
 
