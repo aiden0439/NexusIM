@@ -1,0 +1,26 @@
+server:
+  mode: debug
+  addr: ":8080"
+
+mysql:
+  dsn: "im:im_password@tcp(127.0.0.1:3306)/im_server?charset=utf8mb4&parseTime=True&loc=Local"
+  max_idle_conns: 10
+  max_open_conns: 100
+
+redis:
+  addr: "127.0.0.1:6379"
+  password: ""
+  db: 0
+
+kafka:
+  brokers:
+    - "127.0.0.1:9092"
+  topic_message: "im.messages"
+  group_id: "im-server"
+
+jwt:
+  secret: "change-me"
+  expire_hours: 168
+
+log:
+  level: "debug"

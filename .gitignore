@@ -1,0 +1,19 @@
+.DS_Store
+.env
+*.log
+tmp/
+dist/
+bin/
+coverage.out
+
+# Go
+vendor/
+*.test
+
+# IDE
+.idea/
+.vscode/
+
+# Local prompts and generated private docs
+prompt*.md
+docs/
